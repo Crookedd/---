@@ -1,0 +1,103 @@
+body {
+  margin: auto;
+}
+  
+.travels_section {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  gap: 10px;
+  padding: 100px;
+  max-width: 1200px; 
+  margin: auto; 
+  background-image: url(../images/travels_background.jpg);
+}
+
+.text_header {
+  width: 100%;
+  max-width: 1200px; 
+  text-align: center; 
+}
+  
+.text_header h2 {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #8A53FF;
+}
+  
+.text_header h1 {
+  font-family: Changa One;
+  font-size: 39px;
+  font-weight: bold;
+  line-height: 40px;
+  text-align: center;
+  color: #434343;
+}
+
+.form_travels {
+  width: 500px; 
+  padding: 28px 30px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 28px;
+  background-color: #F7F8F9;
+  display: flex;
+  flex-direction: column; 
+  gap: 20px; 
+
+}
+
+.form_text {
+  width: 557px; 
+  display: flex;
+  flex-direction: column; 
+
+}
+
+.form_text h2 {
+  font-family: Changa One;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 15px;
+  text-align: left;
+  color: #434343;
+}
+
+.form_text p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  color: #576074;
+}
+
+.form_field {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px;
+  color: #434343;
+}
+
+textarea {
+  height: 102px; 
+  resize: none;
+}
+
+.form_submit {
+  width: 180px; 
+  height: 45px; 
+  background-color: #8A53FF; 
+  color: #FFFFFF; 
+  border: none;
+  border-radius: 4px; 
+  cursor: pointer;
+  padding: 14px 10px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  text-align: center;
+}
