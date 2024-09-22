@@ -1,0 +1,89 @@
+body {
+  margin: auto;
+}
+  
+.discover_section {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  max-width: 1200px; 
+  margin: auto; 
+}
+
+.text_header {
+  width: 100%;
+  max-width: 1200px; 
+  text-align: center; 
+}
+
+.text_header h2 {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.09px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #8A53FF;
+}
+
+.text_header h1 {
+  font-family: Changa One;
+  font-size: 39px;
+  font-weight: bold;
+  line-height: 40px;
+  text-align: center;
+  color: #434343;
+}
+
+.location_cards {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 20px; 
+  width: 100%;
+  max-width: 1200px;
+}
+
+.location_card {
+  width: 230px;
+  height: auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  gap: 10px; 
+}
+
+.location_card img {
+  width: 230px; 
+  height: 310px;
+  border-radius: 8px;
+}
+
+.card_title {
+  font-family: Changa One;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 36px;
+  text-align: center;
+  color: #434343;
+}
+
+.card_subtitle {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  color: #8A53FF;
+  cursor: pointer; 
+}
+
+
+@media (max-width: 760px) {
+  .location_card {
+      width: 100%; 
+      max-width: 250; 
+  }
+}
