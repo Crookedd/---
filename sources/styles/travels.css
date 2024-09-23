@@ -2,6 +2,16 @@ body {
   margin: auto;
 }
   
+@font-face {
+  font-family: "Changa One";
+  src: url(../fonts/ChangaOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
 .travels_section {
   display: flex; 
   flex-direction: column; 
@@ -31,6 +41,7 @@ body {
   
 .text_header h1 {
   font-family: Changa One;
+  letter-spacing: 0.06em;
   font-size: 39px;
   font-weight: bold;
   line-height: 40px;
@@ -60,6 +71,7 @@ body {
 .form_text h2 {
   font-family: Changa One;
   font-size: 24px;
+  letter-spacing: 0.08em;
   font-weight: bold;
   line-height: 15px;
   text-align: left;
@@ -68,6 +80,7 @@ body {
 
 .form_text p {
   font-family: Roboto;
+  letter-spacing: 0.06em;
   font-size: 18px;
   font-weight: 400;
   text-align: left;
@@ -82,6 +95,7 @@ body {
 }
 
 textarea {
+  font-family: Roboto;
   height: 102px; 
   resize: none;
 }

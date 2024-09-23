@@ -1,25 +1,35 @@
 body {
   margin: auto;
 }
-  
+
+@font-face {
+  font-family: "Changa One";
+  src: url(../fonts/ChangaOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
 .stories_section {
   display: flex;
   flex-wrap: wrap; 
   padding: 20px;
   max-width: 1200px;
-  margin: auto;
+  margin: 60px auto;
   gap: 20px;
 }
 
-.text_header {
+.text_header_stories {
   width: 100%;
   max-width: 1200px; 
   text-align: center; 
 }
   
-.text_header h2 {
+.text_header_stories h2 {
   font-family: Roboto;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 22px;
   letter-spacing: 0.06em;
@@ -27,9 +37,10 @@ body {
   color: #8A53FF;
 }
   
-.text_header h1 {
+.text_header_stories h1 {
   font-family: Changa One;
   font-size: 39px;
+  letter-spacing: 0.12em;
   font-weight: bold;
   line-height: 40px;
   text-align: center;
@@ -63,12 +74,15 @@ body {
 .big_card_body h3 {
   font-family: Changa One;
   font-size: 24px;
+  letter-spacing: 0.12em;
   font-weight: bold;
   color: #434343;
   margin: 10px 0;
 }
 
 .big_card_body p {
+  font-family: Roboto;
+  letter-spacing: 0.02em;
   font-size: 16px;
   color: #576074;
   margin: 10px 0;
@@ -118,12 +132,15 @@ body {
 .country_text h4 {
   font-family: Changa One;
   font-size: 18px;
+  letter-spacing: 0.12em;
   font-weight: bold;
   color: #434343;
   margin: 0;
 }
 
 .country_text p {
+  font-family: Roboto;
+  letter-spacing: 0.06em;
   font-size: 14px;
   color: #576074;
   margin: 10px 0;

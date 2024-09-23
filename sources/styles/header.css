@@ -2,6 +2,22 @@ body {
   margin: auto;
   padding: 20px 0;
 }
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Changa One";
+  src: url(../fonts/ChangaOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: "BlackSignature";
+  src: url(../fonts/BlackSignaturePersonalUseOnlyRegular.otf);
+}
+
 .header_section {
   height: 68px; 
   padding: 2px 94px;
@@ -21,6 +37,7 @@ body {
   align-items: center; 
 }
 .logo h1 {
+  font-family: "BlackSignature";
   width: 42px;
   height: 28px;
   left: 3px;
@@ -33,6 +50,7 @@ body {
   margin: 0; 
 }
 .logo h2 {
+  font-family: "Changa One";
   width: 76px;
   height: 28px;
   top: 22px;
@@ -49,6 +67,7 @@ body {
 }
 
 .header_menu a {
+  font-family: "Roboto";
   text-decoration: none; 
   color: #495367;
   font-size: 16px;

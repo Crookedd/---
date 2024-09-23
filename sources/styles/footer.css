@@ -1,0 +1,41 @@
+body {
+  margin: auto;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+  
+.footer_inf {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  width: 100%;
+  max-width: 1200px; 
+  margin: 10px auto;
+}
+
+.text_information {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  color: #939EB4;
+}
+
+.footer_links {
+  display: flex;
+  gap: 20px; 
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  color: #939EB4;
+}
+
+.footer_links a {
+  text-decoration: none;
+  color: #939EB4;
+}
