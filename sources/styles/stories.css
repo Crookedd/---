@@ -1,0 +1,136 @@
+body {
+  margin: auto;
+}
+  
+.stories_section {
+  display: flex;
+  flex-wrap: wrap; 
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  gap: 20px;
+}
+
+.text_header {
+  width: 100%;
+  max-width: 1200px; 
+  text-align: center; 
+}
+  
+.text_header h2 {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #8A53FF;
+}
+  
+.text_header h1 {
+  font-family: Changa One;
+  font-size: 39px;
+  font-weight: bold;
+  line-height: 40px;
+  text-align: center;
+  color: #434343;
+}
+
+.big_card {
+  display: flex;
+  flex-direction: column;
+  width: 560px;
+  height: 476.11px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.big_card img {
+  width: 560px;
+  height: 358.11px;
+  border-radius: 8px 8px 0 0;
+  opacity: 1;
+}
+
+.big_card_body {
+  padding: 14px 24px;
+  background-color: #F9F9F9;
+  display: flex; 
+}
+
+
+.big_card_body h3 {
+  font-family: Changa One;
+  font-size: 24px;
+  font-weight: bold;
+  color: #434343;
+  margin: 10px 0;
+}
+
+.big_card_body p {
+  font-size: 16px;
+  color: #576074;
+  margin: 10px 0;
+}
+
+.playicon {
+  cursor: pointer; 
+  background: none;
+  border: none;
+
+}
+
+.playicon::before {
+  content: url('../images/play_featured.svg'); /* Здесь указываем путь к изображению */
+}
+
+
+.countries {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.country_card {
+  display: flex;
+  background: #F9F9F9;
+  border-radius: 8px;
+  padding: 10px 12px;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: auto; 
+}
+
+.country_card img {
+  width: 200px;
+  height: 128px;
+  border-radius: 4px;
+}
+
+.country_text {
+  flex: 1;
+  padding: 10px;
+}
+
+.country_text h4 {
+  font-family: Changa One;
+  font-size: 18px;
+  font-weight: bold;
+  color: #434343;
+  margin: 0;
+}
+
+.country_text p {
+  font-size: 14px;
+  color: #576074;
+  margin: 10px 0;
+}
+
+.light {
+  color: #8A53FF;
+  cursor: pointer;
+}
+
