@@ -1,0 +1,192 @@
+body {
+  margin: auto;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Changa One";
+  src: url(../fonts/ChangaOne-Regular.ttf);
+}
+
+.article {
+  height: 2334.55px;
+  gap: 10px;
+  max-width: 100%; /* Масштабируемость */
+  height: auto;
+}
+
+.article_hero_section {
+  display: flex;
+  padding: 10px;
+  max-width: 1000px;
+  margin: 40px auto;
+  flex-direction: column;
+}
+
+.hero_header {
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+
+.text_header_blog {
+  width: 800px;
+  text-align: left; 
+}
+
+.text_header_blog h2 {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 10px;
+  letter-spacing: 0.06em;
+  color: #8A53FF;
+}
+
+.text_header_blog h1 {
+  font-family: Changa One;
+  font-size: 39px;
+  letter-spacing: 0.12em;
+  font-weight: bold;
+  line-height: 28px;
+  color: #434343;
+}
+
+.icon_profil {
+  cursor: pointer; 
+  background: none;
+  border: none;
+}
+
+.icon_profil::before {
+  content: url('../images/avatar.svg'); 
+}
+
+.author_info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.author_info h5 {
+  margin: 0;
+  font-size: 16px; 
+  color: #495367;
+}
+
+.author_info h6 {
+  margin: 0;
+  font-size: 14px;
+  color: #A2A7B1;
+  font-style: italic;
+}
+
+.article_image {
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.clincher_paragraph {
+  height: auto;
+  margin-top: 20px;
+}
+
+.clincher_paragraph h3 {
+  font-family: Changa One;
+  font-size: 32px;
+  letter-spacing: 0.12em;
+  font-weight: bold;
+  line-height: 28px;
+  color: #434343;
+}
+
+.clincher_paragraph p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #434343;
+}
+
+.callout_section {
+  display: flex;
+  flex-wrap: wrap; 
+  padding: 20px;
+  max-width: 1000px;
+  margin: 20px auto;
+  gap: 10px;
+}
+
+.callout_images {
+  display: flex;
+  border-radius: 8px;
+}
+
+.big_winter_image {
+  display: flex;
+  width: 260px;
+}
+
+.callout_images_column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.callout_images_column img {
+  border-radius: 8px;
+  padding: 10px 12px;
+  gap: 20px;
+  width: 100%;
+}
+
+
+.callout_text {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0.05em;
+  padding: 15px 40px;
+  max-width: 400px; 
+}
+
+.forging_icon {
+  align-self: flex-start; /* Поднимает кавычки выше */
+  width: 50px;
+  height: 30px;
+  margin-right: 20px; /* Отступ между кавычками и текстом */
+}
+
+.callout_title {
+  display: flex;
+  align-items: center;
+  font-family: Changa One;
+  font-size: 42px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 47px;
+  letter-spacing: -0.04em;
+  text-align: left;
+}
+
+.callout_paragraph {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 35px;
+  color: #434343;
+}
+
+.callout_button {
+  width: 180px; 
+  height: 45px; 
+  background-color: #8A53FF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
