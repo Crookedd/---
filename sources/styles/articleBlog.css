@@ -31,6 +31,7 @@ body {
   display: flex;
   align-items: center;
   height: 70px;
+  
 }
 
 .text_header_blog {
@@ -88,6 +89,7 @@ body {
 .article_image {
   border-radius: 8px;
   margin-top: 20px;
+  cursor: pointer; 
 }
 
 .clincher_paragraph {
